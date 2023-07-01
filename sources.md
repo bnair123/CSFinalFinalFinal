@@ -1,7 +1,19 @@
 # Sources
-The entirety of the internet
+The entirety of the internet + one of the hindu gods spoke to bharath in his dream
 ## Front end
-
+https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran
+https://www.youtube.com/watch?v=70-x_Zkf2gE&ab_channel=CodingUnderPressure
+https://youtube.com/playlist?list=PLLWMQd6PeGY3QEHCmCWaUKNhmFFdIDxE8
+https://learn.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.stackpanel?view=winrt-22621
+https://stackoverflow.com/questions/27179373/xml-binding-to-datagrid-in-wpf
+https://www.youtube.com/watch?v=70-x_Zkf2gE&ab_channel=CodingUnderPressure
+https://www.youtube.com/watch?v=PzP8mw7JUzI&ab_channel=Payload
+https://www.youtube.com/watch?v=gLEDpXMTmos&ab_channel=ProgrammingKnowledge
+https://www.youtube.com/watch?v=t4Kg62UeSws&ab_channel=C%23CodeAcademy
+https://www.youtube.com/watch?v=R7_dSmV_5mY&ab_channel=BlackTieLabs
+https://www.youtube.com/watch?v=545NoF7Sab4&ab_channel=CharlesClayton
+https://stackoverflow.com/questions/5809816/datagrid-binding-in-wpf
+https://stackoverflow.com/questions/54556078/how-to-add-buttons-in-xaml
 ## Back end
 https://www.youtube.com/watch?v=shx4C49T5ig (https://tutorials.eu/build-a-currency-converter-application-using-wpf-in-c-with-static-data/) - General Currency Conversion to see how lots of stuff is implemented
 https://www.c-sharpcorner.com/article/reading-and-writing-xml-in-C-Sharp/ - for XML DB
