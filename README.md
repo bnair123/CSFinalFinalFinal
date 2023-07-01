@@ -5,7 +5,7 @@ By Bharath and Mate
 
 ## Project Overview
 
-This application uses WPF and .NET which allows for individual usar creation for whom you can save stocks to their profile.
+This application uses WPF and .NET framework as well as the hopes and prayers framework which allows for individual usar creation for whom you can save stocks to their profile.
 
 The application has the following main components:
 
