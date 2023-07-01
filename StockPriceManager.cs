@@ -42,9 +42,9 @@ namespace RealWorldIntFinal
                 string jsonResponse = await responseMessage.Content.ReadAsStringAsync();
                 return jsonResponse;
             }
-            else 
-            { 
-                throw new JsonException("Error in fetch stock price."); 
+            else
+            {
+                throw new JsonException("Error in fetch stock price.");
             }
         }
     }

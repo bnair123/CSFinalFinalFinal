@@ -15,7 +15,7 @@ namespace RealWorldIntFinal
             loadSymbols();
         }
 
-        public async void loadSymbols() 
+        public async void loadSymbols()
         {
             await controller.getStockDetails(Constants.ApiKey);
         }
@@ -24,7 +24,7 @@ namespace RealWorldIntFinal
         {
             try
             {
-                if(txtUserName.Text != "" && txtPassword.Password != "")
+                if (txtUserName.Text != "" && txtPassword.Password != "")
                 {
                     try
                     {
@@ -33,7 +33,7 @@ namespace RealWorldIntFinal
                         StockView stockView = new StockView(user);
                         stockView.Show();
                     }
-                    catch (Exception ex) 
+                    catch (Exception ex)
                     {
                         throw new ArgumentException("Wrong username or Password");
                     }
@@ -43,7 +43,8 @@ namespace RealWorldIntFinal
                     MessageBox.Show("Please enter valid username and password");
                 }
             }
-            catch(Exception ex) { 
+            catch (Exception ex)
+            {
                 MessageBox.Show(ex.Message);
             }
         }
@@ -59,12 +60,12 @@ namespace RealWorldIntFinal
                 txtPassword.Clear();
                 txtUserName.Clear();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show("Registration failed. Please try again " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
-        
+
     }
 }

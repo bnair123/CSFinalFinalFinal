@@ -53,7 +53,7 @@ namespace RealWorldIntFinal
             }
             if (!flag)
             {
-                MessageBox.Show("No such stock exists on US market " , "ERROR: 404" , MessageBoxButton.OK , MessageBoxImage.Error);
+                MessageBox.Show("No such stock exists on US market ", "ERROR: 404", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -78,29 +78,29 @@ namespace RealWorldIntFinal
                 {
                     gridStock.Items.Add(stock);
                 }
-            } 
+            }
             catch (Exception ex)
             {
                 throw new ArgumentException("Wrong Username or Password");
             }
         }
 
-            private void exitPressed(object sender, RoutedEventArgs e)
+        private void exitPressed(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
         }
 
         private void TheTruth(object sender, RoutedEventArgs e)
         {
-            Random r = new Random();    
-            int i = r.Next(0,6);
+            Random r = new Random();
+            int i = r.Next(0, 6);
             List<string> list = quotes();
-            MessageBox.Show(list[i],"Get helped" , MessageBoxButton.OK , MessageBoxImage.Information);  
+            MessageBox.Show(list[i], "Get helped", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
         //returns a list full of truth at each index
         //Inspired me not to drop out from this university on multiple occasions
-        
+
 
         private List<String> quotes()
         {

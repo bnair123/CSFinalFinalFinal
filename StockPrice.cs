@@ -2,10 +2,10 @@
 
 namespace RealWorldIntFinal
 {
-	public class StockPrice
-	{
-		[JsonPropertyName("price")]
-		public string Price { get; set; }
-	}
+    public class StockPrice
+    {
+        [JsonPropertyName("price")]
+        public string Price { get; set; }
+    }
 }
 

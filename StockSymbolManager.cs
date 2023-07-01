@@ -5,7 +5,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace RealWorldIntFinal
-{ 
+{
     public class StockSymbolManager
     {
         private readonly HttpClient _httpClient;
@@ -33,7 +33,8 @@ namespace RealWorldIntFinal
             string url = $"https://api.twelvedata.com/stocks?country=United%20States&apikey={apiKey}";
             HttpResponseMessage responseMessage = await _httpClient.GetAsync(url);
 
-            if(responseMessage.IsSuccessStatusCode) {
+            if (responseMessage.IsSuccessStatusCode)
+            {
                 string jsonResponse = await responseMessage.Content.ReadAsStringAsync();
                 return jsonResponse;
             }
