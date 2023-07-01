@@ -51,6 +51,7 @@ namespace RealWorldIntFinal
                     }
                 }
             }
+            //Failed to find stocks
             if (!flag)
             {
                 MessageBox.Show("No such stock exists on US market ", "ERROR: 404", MessageBoxButton.OK, MessageBoxImage.Error);
@@ -59,6 +60,7 @@ namespace RealWorldIntFinal
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
+            //Add stocks if clicked
             stockDictionary.addOrUpdateStock(lblStockSymbols.Content.ToString(), decimal.Parse(lblStockPrice.Content.ToString()), UserData.Username);
             loadUserStocks();
         }
