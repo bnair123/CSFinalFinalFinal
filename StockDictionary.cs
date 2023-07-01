@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Windows.Markup;
 using System.Xml;
 using System.Xml.Linq;
 
@@ -16,6 +17,7 @@ namespace RealWorldIntFinal
         {
         }
 
+        //adds or updates a stock in the dictionary. If the stock doesn't exist, it adds a new entry to the dictionary and saves it to an XML file. If the stock already exists, it updates the price in the dictionary and XML file.
         public void addOrUpdateStock(string symbol, decimal price, string userName)
         {
             try
@@ -42,6 +44,7 @@ namespace RealWorldIntFinal
             }
         }
 
+        //This function saves a single stock and its price to an XML file.
         public void saveSingleStockToXml(string filePath, string symbol, decimal price)
         {
             XDocument doc;
@@ -63,6 +66,7 @@ namespace RealWorldIntFinal
             doc.Save(filePath);
         }
 
+        //This function updates the price of an existing stock in the XML file.
         public void updateStockInXml(string filePath, string symbol, decimal price)
         {
             if (File.Exists(filePath))
@@ -80,6 +84,7 @@ namespace RealWorldIntFinal
             }
         }
 
+        //This function removes a stock from the dictionary if it exists.
         public void removeStock(string symbol)
         {
             try
@@ -95,7 +100,7 @@ namespace RealWorldIntFinal
             }
         }
 
-
+        //This function loads stock data from an XML file and returns a list of stocks
         public List<Stock> loadFromXml(string filePath)
         {
             List<Stock> userStocks = new List<Stock>();
