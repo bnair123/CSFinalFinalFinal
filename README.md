@@ -21,13 +21,12 @@ The application has the following main components:
 
 ## Running the Application
 
-To run the application just run it in VS should not be too hard.
+To run the application it can be run normally within the IDE.
 Since the GUI is impecable, everything should be easily navigable, such as user registration and adding stocks. 
 
 
 ## How It Works
 
-We really had to increase our prayers for this one and it seems to have worked, so it seems our strategy of praying instead of actually studying seems to continue to work.
 
 1. The user is presented with a login screen where they can enter their username and password.
 2. If the user enters valid credentials, the login screen is hidden and the main screen of the application (`StockView`) is shown.
